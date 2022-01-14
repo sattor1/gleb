@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro&display=swap");
+
+body {
+  background: #f1f1f1;
+  color: #000;
+  font-size: 19px;
+  font-weight: normal;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.cont {
+  max-width: 750px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.foto {
+  width: 500px;
+  border-radius: 30%;
+  border-style: bold;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+  display: block;
+  text-align: center;
+}
+
+.info-text {
+  font-size: 20xp;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.info-text p {
+  text-align: left;
+}
+
+hr {
+  width: 400;
+  text-align: center;
+  color: black;
+}
+
+a {
+  color: rgb(165, 150, 85);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: coral;
+}
+
+a:visited {
+  color: rgb(61, 19, 19);
+  opacity: 0.1;
+}
+
+.card {
+  font-size: 18px;
+  font-family: inherit;
+  font-weight: 600;
+  padding-bottom: 30px;
+  max-width: 750px;
+  text-align: center;
+}
+
+.card h2 {
+  text-decoration: underline;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 600px;
+  max-width: 750px;
+  font-family: inherit;
+}
+
+table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  text-align: left;
+  border-collapse: collapse;
+  border-radius: 20px;
+  box-shadow: 0 0 0 10px #000000;
+  color: #452f21;
+}
+th {
+  color: black;
+  padding: 10px 8px;
+  background: rgb(150, 147, 147);
+}
+table th:first-child {
+  border-top-left-radius: 20px;
+}
+table th:last-child {
+  border-top-right-radius: 20px;
+}
+td {
+  border-top: 10px solid #050505;
+  padding: 8px;
+  background: rgb(209, 208, 208);
+}
+table td:first-child {
+  border-bottom-left-radius: 20px;
+}
+table td:last-child {
+  border-bottom-right-radius: 20px;
+}
+
+.kino {
+  font-size: 18px;
+}
+
+@media (max-width: 700px) {
+  body {
+    display: block;
+    text-align: center;
+  }
+}
